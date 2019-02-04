@@ -19,8 +19,15 @@ public class Body {
 		this.m = m;
 	}
 	
+<<<<<<< HEAD
+	//CONSTRUCTOR 2
+	public Body() {}
+	
+	//FUNCIONES DE LA CLASE
+=======
 	
 	//FUNCIONES DEL PROGRAMA
+>>>>>>> 197d6b552d7a550235c92f611b3fe400d5943ffd
 	public String getId() {
 		return this.id;
 	}
