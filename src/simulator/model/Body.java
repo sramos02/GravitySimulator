@@ -19,8 +19,11 @@ public class Body {
 		this.m = m;
 	}
 	
+
+	//CONSTRUCTOR 2
+	public Body() {}
 	
-	//FUNCIONES DEL PROGRAMA
+	//FUNCIONES DE LA CLASE
 	public String getId() {
 		return this.id;
 	}
@@ -50,7 +53,7 @@ public class Body {
 	}
 	
 	void move(double t) {
-		//p += vt + 0.5at²
+		//p += vt + 0.5atÂ²
 		double aux = t*t;
 		Vector u = (v.scale(t));
 		Vector v = (a.scale(aux));
